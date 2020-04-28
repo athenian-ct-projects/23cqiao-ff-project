@@ -1,11 +1,12 @@
 # Focus Day Project Decomposition
+* Harry Potter day
+* Sorting hat 
 
-* Write your plan here. Use headings an bullet points to organize your thoughts. See the Markdown guide for formatting hints.
+* ask questions about Harry Potter:
+* make four variables: G,S,H,R
+* base on answers, add points the corresponding variable
+* the variable with the largest number in the end is the house the user is sorted into
 
-Here are soem formatting examples:
-# Level 1 Header
-## Level 2
-### Level 3
 
 * Bullet point, level 1  
   * Level 2 (tab once)
