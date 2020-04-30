@@ -7,6 +7,7 @@
 * base on answers, add points the corresponding variable
 * the variable with the largest number in the end is the house the user is sorted into
 
+* Due date: May 18th
 
 * Bullet point, level 1  
   * Level 2 (tab once)
