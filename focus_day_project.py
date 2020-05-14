@@ -55,8 +55,39 @@ elif Q4==C:
 elif Q4==D:
     G+1
 print("A talented, B clever, C brave, D determind")
-Q4=pint(str("Which of the qualities do you think is the key to success? "))
- 
+Q5=print(str("Which of the qualities do you think is the key to success? "))
+if Q5==A:
+    H+1
+elif Q5==B:
+    R+1
+elif Q5==C:
+    G+1
+elif Q5==D:
+    S+1
+print("A Luna Lovegood, B Draco Malfory, C Harry Potter, D Newton Scamander ")
+Q6=print(str("Which of the characters above you admire the most? "))
+if Q6==A:
+    R+1
+elif Q6==B:
+    S+1
+elif Q6==C:
+    G+1
+elif Q6==D:
+    H+1
+print("Final question! A Transifiguration, B Potions, C defense agianst dark arts, D Herbology")
+Q7=print(str("Which course are you most interested in? "))
+if Q7==A:
+    G+1
+elif Q7==B:
+    H+1
+elif Q7==C:
+    S+1
+elif Q7==D:
+    R+1
+
+
+
+
 
 
 
