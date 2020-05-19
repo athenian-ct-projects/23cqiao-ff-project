@@ -15,7 +15,7 @@ def answers(A,B,C,D): #what should A,B,C,D be defined as here?
     B=1
     C=1
     D=1
-Q1=print(str("What color above suits your personality the most? "))
+Q1=input(str("What color above suits your personality the most? "))
 if Q1==A:
     R+1
 elif Q1==B:
@@ -25,7 +25,7 @@ elif Q1==C:
 elif Q1==D:
     H+1
 print("A snake, B lion, C badger, D eagle ")
-Q2=print(str("Which of the animals below is your favorite? "))
+Q2=input(str("Which of the animals below is your favorite? "))
 if Q2==A:
     S+1
 elif Q2==B:
@@ -35,7 +35,7 @@ elif Q2==C:
 elif Q3==D:
     R+1
 print("A fire, B air, C water, D earth")
-Q3=print(str("Which element relates with you the most? "))
+Q3=input(str("Which element relates with you the most? "))
 if Q3==A:
     G+1
 elif Q3==B:
@@ -45,7 +45,7 @@ elif Q3==C:
 elif Q3==D:
     S+1
 print("A analytical, B ambitous, C giving, D honest")
-Q4=print(str("Which of the following words describes you the most? "))
+Q4=input(str("Which of the following words describes you the most? "))
 if Q4==A:
    R+1
 elif Q4==B:
@@ -55,7 +55,7 @@ elif Q4==C:
 elif Q4==D:
     G+1
 print("A talented, B clever, C brave, D determind")
-Q5=print(str("Which of the qualities do you think is the key to success? "))
+Q5=input(str("Which of the qualities do you think is the key to success? "))
 if Q5==A:
     H+1
 elif Q5==B:
@@ -65,7 +65,7 @@ elif Q5==C:
 elif Q5==D:
     S+1
 print("A Luna Lovegood, B Draco Malfory, C Harry Potter, D Newton Scamander ")
-Q6=print(str("Which of the characters above you admire the most? "))
+Q6=input(str("Which of the characters above you admire the most? "))
 if Q6==A:
     R+1
 elif Q6==B:
@@ -75,7 +75,7 @@ elif Q6==C:
 elif Q6==D:
     H+1
 print("Final question! A Transifiguration, B Potions, C defense agianst dark arts, D Herbology")
-Q7=print(str("Which course are you most interested in? "))
+Q7=input(str("Which course are you most interested in? "))
 if Q7==A:
     G+1
 elif Q7==B:
@@ -84,6 +84,19 @@ elif Q7==C:
     S+1
 elif Q7==D:
     R+1
+print("Here is the result")
+if G>R and G>S and G>H:
+    print("You got sorted into Griffindor")
+if R>G and R>S and R>H:
+    print("You got sorted into Ravenclaw")
+if H>G and H>S and G>R:
+    print("You got sorted into Hufflepuff")
+if S>G and S>H and S>R:
+    print("You got sorted into Slytherin")
+else:
+    print("Seems like you are qualified for all houses.")
+result=input("Which house do you want to go? ")
+print(result)
 
 
 
