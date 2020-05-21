@@ -15,7 +15,8 @@ def answers(A,B,C,D): #what should A,B,C,D be defined as here?
     B=1
     C=1
     D=1
-Q1=input(str("What color above suits your personality the most? "))
+print("A blue, B red, C green, D yellow")
+Q1=input(str("Which color suits your personality the most?"))
 if Q1==A:
     R+1
 elif Q1==B:
@@ -85,18 +86,19 @@ elif Q7==C:
 elif Q7==D:
     R+1
 print("Here is the result")
-if G>R and G>S and G>H:
+while G>R and G>S and G>H:
     print("You got sorted into Griffindor")
-if R>G and R>S and R>H:
+while R>G and R>S and R>H:
     print("You got sorted into Ravenclaw")
-if H>G and H>S and G>R:
+while H>G and H>S and G>R:
     print("You got sorted into Hufflepuff")
-if S>G and S>H and S>R:
+while S>G and S>H and S>R:
     print("You got sorted into Slytherin")
 else:
     print("Seems like you are qualified for all houses.")
-result=input("Which house do you want to go? ")
-print(result)
+result=input("Which house do you want to go to")
+print("You are going to 'result'")
+
 
 
 

@@ -25,6 +25,5 @@ A Luna Lovegood(R+1) B Draco Malfor(S+1) C Harry Potter(G+1) D Newton Scamander(
 
 Find the house with the most points
 if there's a tie:
-use a random number between 1, 2 and 3(if there's three houses with the same points)
-The chosen one will be the house you got sort in to.
-
+ask what house does the person wants to go 
+print the answer
