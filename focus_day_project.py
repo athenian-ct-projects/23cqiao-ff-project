@@ -79,18 +79,21 @@ elif Q7=="C":
 elif Q7=="D":
     R=R+1
 print("Here is the result")
-while G>R and G>S and G>H:
-    print("You got sorted into Griffindor")
-while R>G and R>S and R>H:
-    print("You got sorted into Ravenclaw")
-while H>G and H>S and G>R:
-    print("You got sorted into Hufflepuff")
-while S>G and S>H and S>R:
-    print("You got sorted into Slytherin")
-else:
-    print("Seems like you are qualified for all houses.")
-result: input("Which house do you want to go to")
+def finalresult(Griffindor, Hufflepuff, Ravenclaw,Slytherin):
+    while G>R and G>S and G>H:
+        return print("You got sorted into Griffindor!")
+    while R>S and R>H and R>G:
+        return print("You got sorted into Ravenclaw!")
+    while S>G and S>H and S>R:
+        return print("You got sorted in to Slytherin!")
+    while H>S and H>G and H>R:
+        return print("You got sorted into Hufflepuff!")
+    else:
+        return print("It seems like you are qualified for all houses")
+result=input("Which house do you want to go? ")
 print("You are going to "+result)
+
+
 
 
 
