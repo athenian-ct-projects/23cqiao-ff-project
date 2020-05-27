@@ -1,6 +1,18 @@
 # Welcome to your Focus Day Project. Replace this comment with something that introduces the user to your project. Be sure to mention the Focus Day and your initials and graduation year. (ie This game is for Pool Volume Day and is written by ML '23.)
 # Also, be sure to use comments throughout your program. Use good programming practices, including organization, documentation and citation. Yes, you need to cite your sources! (You can do so using comments at the bottom of your code.)
 # Harry Potter Day, sorting hat
+def finalresult(Griffindor, Hufflepuff, Ravenclaw,Slytherin):
+    while G>R and G>S and G>H:
+        return print("You got sorted into Griffindor!")
+    while R>S and R>H and R>G:
+        return print("You got sorted into Ravenclaw!")
+    while S>G and S>H and S>R:
+        return print("You got sorted in to Slytherin!")
+    while H>S and H>G and H>R:
+        return print("You got sorted into Hufflepuff!")
+    else:
+        return print("It seems like you are qualified for all houses, go to which ever one you like!")
+#Function here
 G=0
 S=0
 H=0
@@ -8,6 +20,7 @@ R=0
 print("Welcome to the sorting hat")
 print("I will ask you some questions and sort you into the right house.")
 print("Let's begin!")
+#Start asking questions
 print("A blue, B red, C green, D yellow")
 Q1=input(str("Which color suits your personality the most?"))
 if Q1=="A":
@@ -18,6 +31,7 @@ elif Q1=="C":
     S+1
 elif Q1=="D":
     H=H+1
+#Add point to the corredsponding house
 print("A snake, B lion, C badger, D eagle ")
 Q2=input(str("Which of the animals below is your favorite? "))
 if Q2=="A":
@@ -79,17 +93,9 @@ elif Q7=="C":
 elif Q7=="D":
     R=R+1
 print("Here is the result")
-def finalresult(Griffindor, Hufflepuff, Ravenclaw,Slytherin):
-    while G>R and G>S and G>H:
-        return print("You got sorted into Griffindor!")
-    while R>S and R>H and R>G:
-        return print("You got sorted into Ravenclaw!")
-    while S>G and S>H and S>R:
-        return print("You got sorted in to Slytherin!")
-    while H>S and H>G and H>R:
-        return print("You got sorted into Hufflepuff!")
-    else:
-        return print("It seems like you are qualified for all houses")
+#run the function
+finalresult(G,R,S,H)
+#ending
 ending="THANK YOU!"
 for x in ending:
     print(x)
