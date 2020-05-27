@@ -90,8 +90,10 @@ def finalresult(Griffindor, Hufflepuff, Ravenclaw,Slytherin):
         return print("You got sorted into Hufflepuff!")
     else:
         return print("It seems like you are qualified for all houses")
-result=input("Which house do you want to go? ")
-print("You are going to "+result)
+ending="THANK YOU!"
+for x in ending:
+    print(x)
+
 
 
 
